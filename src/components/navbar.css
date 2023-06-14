@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    
+}
+.links{
+    text-decoration: none;
+    margin: 10px;
+}
+.vstack> Link{
+    color: black;
+}
