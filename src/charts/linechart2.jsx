@@ -1,20 +1,18 @@
-import Navbar from "./Navbar";
-import  { Bar } from "react-chartjs-2"
 import { Line } from 'react-chartjs-2';
 import {CategoryScale} from 'chart.js'; 
 import Chart from 'chart.js/auto';
 Chart.register(CategoryScale);
-function Classmates() {
+function Linechart2() {
     
   const chartData = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+    labels: ['Monday', 'Tuesday','Wednesday', 'Thursday', 'Friday', 'Saturday', ],
     datasets: [
       {
-        label: 'My Dataset',
-        data: [12, 19, 3, 5, 2, 3],
+        label: 'Daily HomeWork Submission',
+        data: [100, 80, 75, 95, 90, 97],
         backgroundColor: 'rgba(75, 192, 192, 0.6)',
-        borderColor: 'rgba(75, 192, 192, 1)',
-        borderWidth: 1,
+        borderColor: 'rgb(26, 83, 255)',
+        borderWidth: 3,
       },
     ],
   };
@@ -32,4 +30,4 @@ function Classmates() {
     
   }
   
-  export default Classmates;
+  export default Linechart2;

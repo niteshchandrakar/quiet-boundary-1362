@@ -1,4 +1,5 @@
 import Dashboard from "./components/Dashboard";
+import Navbar from "./components/Navbar";
 import AllRoutes from "./components/routes/allroutes";
 
 export default function App() {
@@ -8,7 +9,7 @@ export default function App() {
 
   return (
    <div>
-   
+   <Navbar/>
    <AllRoutes/>
    </div>
   );
