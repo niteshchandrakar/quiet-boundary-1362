@@ -18,13 +18,13 @@ function Monthchart() {
   };
 
   const chartOptions = {
-    responsive: true,
+    responsive:true,
     maintainAspectRatio: false,
   };
 
   return (
-    <div>
-      <Line data={chartData} options={chartOptions} />
+    <div style={{width:"70%",height:"200px"}} >
+      <Line data={chartData} options={chartOptions}  />
     </div>
   );
     
