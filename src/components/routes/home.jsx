@@ -10,7 +10,7 @@ function Home() {
         <h1>Home</h1>
         <Link to="/login">Login</Link>
         <Link to="/signup">Signup</Link>
-        <Link to="/dashboard">DashBoard</Link>
+       
       </div>
     );
   }

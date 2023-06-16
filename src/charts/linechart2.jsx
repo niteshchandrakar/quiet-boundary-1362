@@ -23,7 +23,7 @@ function Linechart2() {
   };
 
   return (
-    <div>
+    <div style={{width:"40%",height:"200px"}}>
       <Line data={chartData} options={chartOptions} />
     </div>
   );
