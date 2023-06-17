@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { AppContext } from './AuthContextProvider'
 import { useNavigate } from 'react-router-dom'
+import { Input } from '@chakra-ui/react'
 export default function Login() {
   const Navigate=useNavigate()
     const {data,setdata,HandleFormRequest} =useContext(AppContext)
@@ -9,9 +10,11 @@ export default function Login() {
       Navigate('/dashboard')
     }
     return (
-        <div>
-            <form data-testid = "auth_form"  onSubmit={HandleFormRequest}>
+        <div className='maindivv'>
+            <form   onSubmit={HandleFormRequest}>
+            
                 <input
+                style={{marginTop:"20px",marginBottom:"10px"}}
                     type = "email"
                     data-testid = "email"
                     placeholder = "Enter Email"
@@ -19,8 +22,9 @@ export default function Login() {
                 />
                 <br />
                 <input
+                style={{marginBottom:"10px"}}
                     type = "password"
-                    data-testid = "password"
+                    
                     placeholder = "Enter password"
                     onChange={(e)=>{setdata({...data,password:e.target.value})}}
                 />
