@@ -12,34 +12,36 @@ export default function AuthContextProvider({ children }) {
       class
         :
         "11th Class",
-  dob
+      dob
         :
         "07-09-1999",
-  email
+      email
         :
         "abc@gmail.com",
-  firstname
+      firstname
         :
         "Nitesh",
-  gender
+      gender
         :
         "male",
-  id
+      id
         :
         1,
-  lastname
+      lastname
         :
         "Chandrakar",
-  password
+      password
         :
         "12345",
-  phone
+      phone
         :
         9754601089,
-  town
+      town
         :
-        "Mathani Khurd"
+        "Mathani Khurd",
+      image: "https://img.freepik.com/premium-photo/young-student-girl-with-backpack-white_488220-77966.jpg?size=626&ext=jpg&ga=GA1.1.1446806646.1681734089&semt=ais"
     }
+
   })
 
   const HandleFormRequest = async (e) => {

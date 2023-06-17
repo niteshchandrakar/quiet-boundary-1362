@@ -6,8 +6,9 @@
 .main{
     display: flex;
     margin: 10px;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 0px;
+    margin-bottom: 0px;
     
    
 }

@@ -5,45 +5,64 @@
       "email": "abc@gmail.com",
       "password": "12345",
       "firstname": "Nitesh",
-      "lastname":"Chandrakar",
-      "dob":"07-09-1999",
-      "phone":9754601089,
-      "gender":"male",
-      "town":"Mathani Khurd",
-      "class": "11th Class"
-
-      
+      "lastname": "Chandrakar",
+      "dob": "07-09-1999",
+      "phone": 9754601089,
+      "gender": "male",
+      "town": "Mathani Khurd",
+      "class": "11th Class",
+      "image": "https://img.freepik.com/premium-photo/young-student-girl-with-backpack-white_488220-77966.jpg?size=626&ext=jpg&ga=GA1.1.1446806646.1681734089&semt=ais"
     },
     {
       "id": 1,
       "email": "def@gmail.com",
       "password": "12345",
       "firstname": "Abhishek",
-      "lastname":"Dubey",
-      "dob":"07-09-1999",
-      "phone":9754601089,
-      "gender":"male",
-      "town":"Mathani Khurd",
+      "lastname": "Dubey",
+      "dob": "07-09-1999",
+      "phone": 9754601089,
+      "gender": "male",
+      "town": "Mathani Khurd",
       "class": "11th Class"
-
-      
     },
     {
       "id": 1,
       "email": "ghi@gmail.com",
       "password": "12345",
       "firstname": "Avinash",
-      "lastname":"Dubey",
-      "dob":"07-09-1999",
-      "phone":9754601089,
-      "gender":"male",
-      "town":"Mathani Khurd",
+      "lastname": "Dubey",
+      "dob": "07-09-1999",
+      "phone": 9754601089,
+      "gender": "male",
+      "town": "Mathani Khurd",
       "class": "11th Class"
-
-      
+    },
+    {
+      "email": "niteshchandrakar2@gmail.com",
+      "password": "1234567",
+      "firstname": "nitesh",
+      "lastname": "chandrakar",
+      "dob": "2023-06-13",
+      "phone": "9787879688",
+      "gender": "female",
+      "town": "kawardha",
+      "class": "11th Grade",
+      "image": "dsjhjkhdjkh",
+      "id": 2
+    },
+    {
+      "email": "",
+      "password": "",
+      "firstname": "",
+      "lastname": "",
+      "dob": "",
+      "phone": "",
+      "gender": "",
+      "town": "",
+      "class": "",
+      "image": "",
+      "id": 3
     }
-   
-  
   ],
   "courses": [
     {

@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import { useState } from "react";
+
 function Timetable() {
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const[time,setTime]=useState("")
@@ -32,11 +33,19 @@ console.log(slot,subject)
 }
   return (
     <div>
-
-     {time?(<p>{time}{subject}</p>):("")}
-      <div>
-        <h1>Weekly Timetable</h1>
-        <table style={{ backgroundColor: "beige", border: "2px solid black" }}>
+<div>
+{time && subject?(<p>{time} <label style={{color:"red"}}>{subject}</label> <button>Join Class</button> </p>
+    
+     )
+     
+     
+     
+     :(<h1>Weekly Timetable</h1>)}
+      <div style={{width:"100%",height:"100%"}}>
+</div>
+     
+        
+        <table style={{ backgroundColor: "beige", border: "2px solid black",width:"90%",height:"100%" }}>
           <thead >
             <tr >
               <th style={{ color: "red" }}>Time</th>
@@ -48,9 +57,9 @@ console.log(slot,subject)
           <tbody >
             {timeSlots.map((slot, index) => (
               <tr key={index}>
-                <td style={{ color: "blue" }}>{slot}</td>
+                <td style={{ color: "blue" ,paddingLeft:"7%" }}>{slot}</td>
                 {timetable[index].map((i) => (
-                  <td onClick={()=>{timesdata(slot,i)}} style={{ color: "black", backgroundColor: i ? "red" : "blue" }} key={i}>{i}</td>
+                  <td onClick={()=>{timesdata(slot,i)}} style={{ color: "black", backgroundColor: i ? "red" : "blue",padding:"10px" }} key={i}>{i}</td>
                 ))}
 
 

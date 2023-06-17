@@ -29,12 +29,12 @@ function Calender() {
             </div>
             <div className="text-center">
                 Selected date: {date.toDateString()}
-                <h5>Upcoming exams</h5>
+                <h5 style={{boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}}>Upcoming exams</h5>
                 {exams.map((e) => (
                    <p style={{ padding: "0" }}>
 
                    <Box bg='blue' w='80%'  color='white' borderRadius="10px" >
-                   <h5 style={{padding:"5px"}}> {e.edate} July {e.subject} </h5>
+                   <p style={{padding:"5px"}}> {e.edate} July {e.subject} </p>
                    </Box>
 
                </p>
@@ -44,7 +44,7 @@ function Calender() {
                     <p style={{ padding: "0" }}>
 
                         <Box bg='blue' w='80%'  color='white' borderRadius="10px" >
-                        <h5 style={{padding:"5px"}}>{e.time} <label  >{e.subject}</label> Class <ExternalLinkIcon/> </h5>
+                        <p style={{padding:"5px",}}>{e.time} <label  >{e.subject}</label> Class <ExternalLinkIcon/> </p>
                         </Box>
 
                     </p>
