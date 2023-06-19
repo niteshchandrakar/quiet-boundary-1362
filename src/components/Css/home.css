@@ -1,0 +1,32 @@
+.maindivv{
+    padding-bottom: 33%;
+display: grid;
+justify-content: center;
+background-size: cover;
+background-color: #c0c3f9;
+
+
+
+}
+.maindivv :hover{
+    color: rgb(0, 13, 255);
+}
+.button {
+    background-color: #4035b8; /* Green */
+    border: none;
+    color: #e9e7f8;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .button:hover {
+    background-color: #bfb9f2;
+    color: #4035b8;
+  }
+

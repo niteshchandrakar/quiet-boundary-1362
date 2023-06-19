@@ -8,11 +8,11 @@ function Monthchart() {
     labels: ['January', 'February', 'March', 'April', 'May', 'June','July','August','September','October','November','December'],
     datasets: [
       {
-        label: 'Monthly Progress',
-        data: [12, 19, 3, 5, 2, 3,7,3,9,2,5,9],
+        label: 'Monthly Overall Marks in %',
+        data: [80, 75, 100, 85, 55, 30,70,35,75,65,50,80],
         backgroundColor: 'rgba(75, 192, 192, 0.6)',
-        borderColor: 'rgba(75, 192, 192, 1)',
-        borderWidth: 1,
+        borderColor: '#4035b8',
+        borderWidth: 3,
       },
     ],
   };

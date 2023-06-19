@@ -29,7 +29,7 @@ export default function Login() {
                     onChange={(e)=>{setdata({...data,password:e.target.value})}}
                 />
                 <br />
-                <input type = "submit"/>
+                <input className="button" type = "submit"/>
 
             </form>                
         </div>

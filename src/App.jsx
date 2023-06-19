@@ -1,5 +1,4 @@
-import Dashboard from "./components/Dashboard";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Pages/Navbar";
 import AllRoutes from "./components/routes/allroutes";
 
 export default function App() {

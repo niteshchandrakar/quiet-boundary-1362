@@ -32,15 +32,15 @@ const timesdata=(slot,subject)=>{
 console.log(slot,subject)
 }
   return (
-    <div>
+    <div style={{backgroundColor:"#e9e7f8",height:"1040px"}}>
 <div>
-{time && subject?(<p>{time} <label style={{color:"red"}}>{subject}</label> <button>Join Class</button> </p>
+{time && subject?(<h3 style={{margin:"0px",paddingTop:"10px",paddingBottom:"10px",paddingLeft:"30%"}} >{time} <label style={{color:"#4035b8",}}>{subject}</label> <button className="button">Join Class</button> </h3>
     
      )
      
      
      
-     :(<h1>Weekly Timetable</h1>)}
+     :(<h1 style={{margin:"0px"}}>Weekly Timetable</h1>)}
       <div style={{width:"100%",height:"100%"}}>
 </div>
      
@@ -48,9 +48,9 @@ console.log(slot,subject)
         <table style={{ backgroundColor: "beige", border: "2px solid black",width:"90%",height:"100%" }}>
           <thead >
             <tr >
-              <th style={{ color: "red" }}>Time</th>
+              <th style={{ color: "#4035b8" }}>Time</th>
               {daysOfWeek.map((day, index) => (
-                <th style={{ color: "red" }} key={index}>{day}</th>
+                <th style={{ color: "#4035b8" }} key={index}>{day}</th>
               ))}
             </tr>
           </thead>
@@ -59,7 +59,7 @@ console.log(slot,subject)
               <tr key={index}>
                 <td style={{ color: "blue" ,paddingLeft:"7%" }}>{slot}</td>
                 {timetable[index].map((i) => (
-                  <td onClick={()=>{timesdata(slot,i)}} style={{ color: "black", backgroundColor: i ? "red" : "blue",padding:"10px" }} key={i}>{i}</td>
+                  <td onClick={()=>{timesdata(slot,i)}} style={{ color: "black", backgroundColor: i ?  "#4035b8":"#e7e8f9",padding:"10px",color:"#e7e8f9" }} key={i}>{i}</td>
                 ))}
 
 

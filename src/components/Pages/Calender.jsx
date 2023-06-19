@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Calendar from 'react-calendar';
 import { Box } from '@chakra-ui/react';
-import "./Calender.css"
+import "../Css/Calender.css"
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 function Calender() {
@@ -29,21 +29,21 @@ function Calender() {
             </div>
             <div className="text-center">
                 Selected date: {date.toDateString()}
-                <h5 style={{boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}}>Upcoming exams</h5>
+                <h3 style={{margin:"0px",marginTop:"10px",color:"#4035b8"}}>Upcoming exams</h3>
                 {exams.map((e) => (
                    <p style={{ padding: "0" }}>
 
-                   <Box bg='blue' w='80%'  color='white' borderRadius="10px" >
-                   <p style={{padding:"5px"}}> {e.edate} July {e.subject} </p>
+                   <Box bg='#4035b8' w='80%'  color='white' borderRadius="10px" mt="0px" >
+                   <p style={{padding:"5px",marginTop:"0px"}}> {e.edate} July {e.subject} </p>
                    </Box>
 
                </p>
                 ))}
-                <h5>Schedule</h5>
+                <h3 style={{margin:"0px",marginTop:"10px",color:"#4035b8"}}>Schedule</h3>
                 {schedule.map((e) => (
                     <p style={{ padding: "0" }}>
 
-                        <Box bg='blue' w='80%'  color='white' borderRadius="10px" >
+                        <Box bg='#4035b8' w='80%'  color='white' borderRadius="10px" >
                         <p style={{padding:"5px",}}>{e.time} <label  >{e.subject}</label> Class <ExternalLinkIcon/> </p>
                         </Box>
 

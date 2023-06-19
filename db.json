@@ -4,7 +4,7 @@
       "id": 1,
       "email": "abc@gmail.com",
       "password": "12345",
-      "firstname": "Nitesh",
+      "firstname": "Nitkita",
       "lastname": "Chandrakar",
       "dob": "07-09-1999",
       "phone": 9754601089,
@@ -14,7 +14,7 @@
       "image": "https://img.freepik.com/premium-photo/young-student-girl-with-backpack-white_488220-77966.jpg?size=626&ext=jpg&ga=GA1.1.1446806646.1681734089&semt=ais"
     },
     {
-      "id": 1,
+      "id": 2,
       "email": "def@gmail.com",
       "password": "12345",
       "firstname": "Abhishek",
@@ -26,7 +26,7 @@
       "class": "11th Class"
     },
     {
-      "id": 1,
+      "id": 3,
       "email": "ghi@gmail.com",
       "password": "12345",
       "firstname": "Avinash",
@@ -48,20 +48,7 @@
       "town": "kawardha",
       "class": "11th Grade",
       "image": "dsjhjkhdjkh",
-      "id": 2
-    },
-    {
-      "email": "",
-      "password": "",
-      "firstname": "",
-      "lastname": "",
-      "dob": "",
-      "phone": "",
-      "gender": "",
-      "town": "",
-      "class": "",
-      "image": "",
-      "id": 3
+      "id": 4
     }
   ],
   "courses": [
@@ -69,81 +56,177 @@
       "id": 1,
       "subject": "Physics",
       "Teacher": "Nitesh Chandrakar",
-      "image": "random",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/1418E4D6-98AD-4745-9467-719AC6062EFC_special_class.png?q=75&w=640&auto=format%2Ccompress",
       "description": "Detailes Course on Moving charges & Magnetism CBSE Class 12 Boards",
       "type": "Live",
       "Fee": 12000,
-      "start": "Next Monday"
+      "start": "Next Monday",
+      "class": "11th Class"
     },
     {
       "id": 2,
       "subject": "Physics",
       "Teacher": "Abhishek Mani",
       "image": "https://static.uacdn.net/thumbnail/course/v2/0AF9E53C-8C3F-4B07-94EB-EDC018D4BD1B_special_class.png?q=75&w=640&auto=format%2Ccompress",
-      "description": "In this class I will be teaching about the moving charges their effects , magnetic effect of current, Ampere's law , solenoid,toroid etc",
+      "description": "I will be teaching about the moving charges their effects , magnetic effect of current, Ampere's law",
       "type": "Live",
       "Fee": 11000,
-      "start": "25th july"
+      "start": "25th july",
+      "class": "11th Class"
     },
     {
       "id": 3,
       "subject": "Physics",
       "Teacher": "Gargi Tiwari",
       "image": "https://static.uacdn.net/thumbnail/course/v2/0AB4388F-C437-4CE4-8FE4-83920360C894_special_class.png?q=75&w=1080&auto=format%2Ccompress",
-      "description": "we will discuss numerical on magnetostate so join live session at 6 :30 pm and use code GTPHY to unlock videosin free",
+      "description": "we will discuss numerical on magnetostate so join live session at 6 :30 pm and use code GTPHY",
       "type": "Live",
       "Fee": 9000,
-      "start": "15th july"
+      "start": "15th july",
+      "class": "11th Class"
     },
     {
       "id": 4,
       "subject": "Physics",
       "Teacher": "Vishal khattar",
       "image": "https://static.uacdn.net/thumbnail/course/v2/1418E4D6-98AD-4745-9467-719AC6062EFC_special_class.png?q=75&w=640&auto=format%2Ccompress",
-      "description": "This session will cover the most important topic of chapter 1 class 12th physics ( gauss theorem and electric flux )",
+      "description": "This session will cover the most important topic of chapter 1 class 12th physics",
       "type": "Live",
       "Fee": 8000,
-      "start": "29 july"
+      "start": "29 july",
+      "class": "11th Class"
     },
     {
       "id": 5,
       "subject": "Chemistry",
       "Teacher": "Gudipati Swapna",
       "image": "https://static.uacdn.net/thumbnail/course/v2/58AE6E1B-2D33-43C7-AC0F-FE1456629BBD_special_class.png?q=75&w=640&auto=format%2Ccompress",
-      "description": "We are discussing about D block elements in live class , d-block elements nature and workflow",
+      "description": "We are discussing about D block elements in live class , d-block elements ",
       "type": "Live",
       "Fee": 7800,
-      "start": "15th july"
+      "start": "15th july",
+      "class": "11th Class"
     },
     {
       "id": 6,
       "subject": "Chemistry",
       "Teacher": "Bharat Panchal",
       "image": "https://static.uacdn.net/thumbnail/course/v2/D2C87A72-D968-4F57-9FBF-0229B9ECCD1E_special_class.png?q=75&w=640&auto=format%2Ccompress",
-      "description": "Use code BPLIVE to unlock this class. In this Class Bharat Panchal will discuss about important topic of chemistry i.e Important MCQ of chemistry. This class is helpful for class 12 students preparing for Boards. Class will be in Hindi.",
+      "description": "Use code BPLIVE to unlock this class. In this Class Bharat Panchal will discuss",
       "type": "Live",
       "Fee": 1500,
-      "start": "9th july"
+      "start": "9th july",
+      "class": "11th Class"
     },
     {
       "id": 7,
       "subject": "Chemistry",
       "Teacher": "Monica Bedi",
       "image": "https://static.uacdn.net/thumbnail/course/v2/63FAFCE5-8906-41C4-A634-95BA9BA7010E_special_class.png?q=75&w=640&auto=format%2Ccompress",
-      "description": "Use code BPLIVE to unlock this class. In this Class Bharat Panchal will discuss about important topic of chemistry i.e Important MCQ of chemistry. This class is helpful for class 12 students preparing for Boards. Class will be in Hindi.",
+      "description": "Use code BPLIVE to unlock this class. In this Class Bharat Panchal will discuss ",
       "type": "Live",
       "Fee": 12000,
-      "start": "17th july"
+      "start": "17th july",
+      "class": "11th Class"
     },
     {
       "id": 8,
       "subject": "Chemistry",
       "Teacher": "Shilpa Sharma",
       "image": "https://edge.uacdn.net/static/thumbnail/user/d97c532b3b28457ba969548a1c71ab78.jpg?q=75&w=96&auto=format%2Ccompress",
-      "description": "Use code BPLIVE to unlock this class. In this Class Bharat Panchal will discuss about important topic of chemistry i.e Important MCQ of chemistry. This class is helpful for class 12 students preparing for Board",
+      "description": "Use code BPLIVE to unlock this class. In this Class Bharat Panchal will discuss",
       "type": "Live",
       "Fee": 4500,
-      "start": "23rd july"
+      "start": "23rd july",
+      "class": "11th Class"
+    },
+    {
+      "subject": "English",
+      "Teacher": "Revti dhurv",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/9E148C3D-4C18-46CA-A93C-DCB9FFE88CAE_plus.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "In this class Zaki Saudagar will cover the Entire Multiple choice question",
+      "type": "Live",
+      "Fee": "2500",
+      "start": "2023-07-21",
+      "class": "11th Class",
+      "id": 9
+    },
+    {
+      "subject": "Chemistry",
+      "Teacher": "Revti dhurv",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/9E148C3D-4C18-46CA-A93C-DCB9FFE88CAE_plus.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "In this class Zaki Saudagar will cover the Entire Multiple choice question",
+      "type": "Live",
+      "Fee": "2500",
+      "start": "2023-07-21",
+      "class": "10th Class",
+      "id": 10
+    },
+    {
+      "subject": "Maths",
+      "Teacher": "Revti dhurv",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/9E148C3D-4C18-46CA-A93C-DCB9FFE88CAE_plus.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "In this class Zaki Saudagar will cover the Entire Multiple choice question of Ancient",
+      "type": "Live",
+      "Fee": "8000",
+      "start": "2023-07-21",
+      "class": "12th Class",
+      "id": 11
+    },
+    {
+      "subject": "Physics",
+      "Teacher": "Revti dhurv",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/9E148C3D-4C18-46CA-A93C-DCB9FFE88CAE_plus.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "In this class Zaki Saudagar will cover the Entire Multiple choice question of Ancient",
+      "type": "Live",
+      "Fee": "6500",
+      "start": "2023-07-27",
+      "class": "12th Class",
+      "id": 12
+    },
+    {
+      "subject": "English",
+      "Teacher": "Deepika chandra",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/4FCCD6F1-0FA6-4A4D-AF10-D496536AFBE0_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "this class covers all topics off this subject,and we took also some mock tests",
+      "type": "Live",
+      "Fee": "12345",
+      "start": "2023-06-30",
+      "class": "11th Class",
+      "id": 13
+    },
+    {
+      "subject": "Chemistry",
+      "Teacher": "Deepika chandra",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/4FCCD6F1-0FA6-4A4D-AF10-D496536AFBE0_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "this class covers all topics off this subject,and we took also some mock tests",
+      "type": "Live",
+      "Fee": "6500",
+      "start": "2023-06-30",
+      "class": "11th Class",
+      "id": 14
+    },
+    {
+      "subject": "Maths",
+      "Teacher": "Deepika chandra",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/4FCCD6F1-0FA6-4A4D-AF10-D496536AFBE0_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "this class covers all topics off this subject,and we took also some mock tests",
+      "type": "Live",
+      "Fee": "2500",
+      "start": "2023-06-30",
+      "class": "11th Class",
+      "id": 15
+    },
+    {
+      "subject": "Physics",
+      "Teacher": "Deepika chandra",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/4FCCD6F1-0FA6-4A4D-AF10-D496536AFBE0_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "this class covers all topics off this subject,and we took also some mock tests",
+      "type": "Live",
+      "Fee": "1500",
+      "start": "2023-06-30",
+      "class": "11th Class",
+      "id": 16
     }
   ],
   "teachers": [
