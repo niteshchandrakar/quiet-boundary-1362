@@ -5,41 +5,41 @@ export const AppContext = createContext()
 export default function AuthContextProvider({ children }) {
   const [data2, setdata2] = useState([])
   const [data, setdata] = useState({
-    isAuth: true,
+    isAuth: false,
     email: ""
     , password: "",
     userdata: {
       class
         :
-        "11th Class",
+        "",
       dob
         :
-        "07-09-1999",
+        "",
       email
         :
-        "abc@gmail.com",
+        "",
       firstname
         :
-        "Nitesh",
+        "",
       gender
         :
-        "male",
+        "",
       id
         :
         1,
       lastname
         :
-        "Chandrakar",
+        "",
       password
         :
-        "12345",
+        "",
       phone
         :
         9754601089,
       town
         :
-        "Mathani Khurd",
-      image: "https://img.freepik.com/premium-photo/young-student-girl-with-backpack-white_488220-77966.jpg?size=626&ext=jpg&ga=GA1.1.1446806646.1681734089&semt=ais"
+        "",
+      image: ""
     }
 
   })

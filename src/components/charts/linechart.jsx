@@ -8,11 +8,11 @@ function Linechart() {
     labels: ['January', 'February', 'March', 'April', 'May', 'June'],
     datasets: [
       {
-        label: 'My Dataset',
-        data: [8, 10, 9, 5, 6, 7],
-        backgroundColor: 'rgba(75, 192, 192, 0.6)',
-        borderColor: 'rgba(75, 192, 192, 1)',
-        borderWidth: 1,
+        label: 'Attendence in %',
+        data: [80, 100, 90, 50, 60, 70],
+        backgroundColor: '#e9e7f8',
+        borderColor: '#4035b8',
+        borderWidth: 3,
       },
     ],
   };

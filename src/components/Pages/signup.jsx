@@ -40,7 +40,7 @@ function Signup() {
         <br />
         <input type="text" placeholder="Lastname" onChange={(e)=>{setData({...data,lastname:e.target.value})}} />
         <br />
-        <input type="date" placeholder="Lastname" onChange={(e)=>{setData({...data,dob:e.target.value})}} />
+        <input className="button" type="date" placeholder="Lastname" onChange={(e)=>{setData({...data,dob:e.target.value})}} />
         <br />
         <input type="number" placeholder="Phone number" onChange={(e)=>{setData({...data,phone:e.target.value})}} />
         <br />
@@ -50,13 +50,13 @@ function Signup() {
         <br />
         <input type="text" placeholder="Image Link" onChange={(e)=>{setData({...data,image:e.target.value})}} />
         <br />
-        <select onChange={(e)=>{setData({...data,gender:e.target.value})}} >
+        <select className="button" onChange={(e)=>{setData({...data,gender:e.target.value})}} >
          <option value="male">Male</option>
          <option value="female">Female</option>
          <option value="Other">Other</option>
         </select>
         <br />
-        <input type="submit" />
+        <input className="button" type="submit" />
        </form>
       </div>
     );
