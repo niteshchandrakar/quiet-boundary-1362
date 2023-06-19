@@ -218,15 +218,111 @@
       "id": 15
     },
     {
-      "subject": "Physics",
-      "Teacher": "Deepika chandra",
-      "image": "https://static.uacdn.net/thumbnail/course/v2/4FCCD6F1-0FA6-4A4D-AF10-D496536AFBE0_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "subject": "Maths",
+      "Teacher": "Bharat Panchal",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/D2C87A72-D968-4F57-9FBF-0229B9ECCD1E_special_class.png?q=75&w=640&auto=format%2Ccompress",
       "description": "this class covers all topics off this subject,and we took also some mock tests",
       "type": "Live",
       "Fee": "1500",
       "start": "2023-06-30",
       "class": "11th Class",
       "id": 16
+    },{
+      "id": 17,
+      "subject": "Maths",
+      "Teacher": "Nitesh Chandrakar",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/1418E4D6-98AD-4745-9467-719AC6062EFC_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "Detailes Course on Moving charges & Magnetism CBSE Class 12 Boards",
+      "type": "Live",
+      "Fee": 12000,
+      "start": "Next Monday",
+      "class": "11th Class"
+    },
+    {
+      "id": 18,
+      "subject": "Maths",
+      "Teacher": "Abhishek Mani",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/0AF9E53C-8C3F-4B07-94EB-EDC018D4BD1B_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "I will be teaching about the moving charges their effects , magnetic effect of current, Ampere's law",
+      "type": "Live",
+      "Fee": 11000,
+      "start": "25th july",
+      "class": "11th Class"
+    },
+    {
+      "id": 19,
+      "subject": "Physics",
+      "Teacher": "Gargi Tiwari",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/0AB4388F-C437-4CE4-8FE4-83920360C894_special_class.png?q=75&w=1080&auto=format%2Ccompress",
+      "description": "we will discuss numerical on magnetostate so join live session at 6 :30 pm and use code GTPHY",
+      "type": "Live",
+      "Fee": 9000,
+      "start": "15th july",
+      "class": "11th Class"
+    },{
+      "id": 20,
+      "subject": "Chemistry",
+      "Teacher": "Nitesh Chandrakar",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/1418E4D6-98AD-4745-9467-719AC6062EFC_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "Detailes Course on Moving charges & Magnetism CBSE Class 12 Boards",
+      "type": "Live",
+      "Fee": 12000,
+      "start": "Next Monday",
+      "class": "11th Class"
+    },
+    {
+      "id": 21,
+      "subject": "English",
+      "Teacher": "Abhishek Mani",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/0AF9E53C-8C3F-4B07-94EB-EDC018D4BD1B_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "I will be teaching about the moving charges their effects , magnetic effect of current, Ampere's law",
+      "type": "Live",
+      "Fee": 11000,
+      "start": "25th july",
+      "class": "11th Class"
+    },
+    {
+      "id": 22,
+      "subject": "Chemistry",
+      "Teacher": "Gargi Tiwari",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/0AB4388F-C437-4CE4-8FE4-83920360C894_special_class.png?q=75&w=1080&auto=format%2Ccompress",
+      "description": "we will discuss numerical on magnetostate so join live session at 6 :30 pm and use code GTPHY",
+      "type": "Live",
+      "Fee": 9000,
+      "start": "15th july",
+      "class": "11th Class"
+    },{
+      "id": 23,
+      "subject": "English",
+      "Teacher": "Nitesh Chandrakar",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/1418E4D6-98AD-4745-9467-719AC6062EFC_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "Detailes Course on Moving charges & Magnetism CBSE Class 12 Boards",
+      "type": "Live",
+      "Fee": 12000,
+      "start": "Next Monday",
+      "class": "11th Class"
+    },
+    {
+      "id": 24,
+      "subject": "English",
+      "Teacher": "Abhishek Mani",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/0AF9E53C-8C3F-4B07-94EB-EDC018D4BD1B_special_class.png?q=75&w=640&auto=format%2Ccompress",
+      "description": "I will be teaching about the moving charges their effects , magnetic effect of current, Ampere's law",
+      "type": "Live",
+      "Fee": 11000,
+      "start": "25th july",
+      "class": "11th Class"
+    },
+    {
+      "id": 25,
+      "subject": "English",
+      "Teacher": "Gargi Tiwari",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/0AB4388F-C437-4CE4-8FE4-83920360C894_special_class.png?q=75&w=1080&auto=format%2Ccompress",
+      "description": "we will discuss numerical on magnetostate so join live session at 6 :30 pm and use code GTPHY",
+      "type": "Live",
+      "Fee": 9000,
+      "start": "15th july",
+      "class": "11th Class"
     }
   ],
   "teachers": [
