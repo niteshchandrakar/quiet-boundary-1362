@@ -12,6 +12,18 @@ function Courses() {
 	const [category, setCategory] = useState("")
   const[loading,setLoading]=useState(false)
   let totalpages=[]
+
+
+const Ccategory=(e)=>{
+  setCategory(e)
+  setPagenumber(1)
+  console.log(pagenumber,category)
+}
+const Ssortby=(e)=>{
+  setSortby(e)
+  setPagenumber(1)
+}
+
   let url=`http://localhost:8080/courses?_page=${pagenumber}&_limit=4`
   const fetchdata = async (e) => {
 setLoading(true)
@@ -63,11 +75,11 @@ console.log(totalpages)
 <div className={styles.maindiv}>
   
   
-  <button className="button" value="Physics" onClick={(e)=>{setCategory(e.target.value)}}>Physics</button>
-  <button className="button" value="Maths" onClick={(e)=>{setCategory(e.target.value)}}>Maths</button>
-  <button className="button" value="Chemistry" onClick={(e)=>{setCategory(e.target.value)}}>Chemistry</button>
-  <button className="button" value="English" onClick={(e)=>{setCategory(e.target.value)}}>English</button>
-  <select className="button" onChange={(e)=>{setSortby(e.target.value)}}  >
+  <button className="button" value="Physics" onClick={(e)=>{Ccategory(e.target.value)}}>Physics</button>
+  <button className="button" value="Maths" onClick={(e)=>{Ccategory(e.target.value)}}>Maths</button>
+  <button className="button" value="Chemistry" onClick={(e)=>{Ccategory(e.target.value)}}>Chemistry</button>
+  <button className="button" value="English" onClick={(e)=>{Ccategory(e.target.value)}}>English</button>
+  <select className="button" onChange={(e)=>{Ssortby(e.target.value)}}  >
          <option value="">Sort By</option>
          <option value="asc">Price Low to High</option>
          <option value="desc">Price High to Low</option>

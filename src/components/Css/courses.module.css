@@ -7,9 +7,9 @@
 .content{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    width: 95%;
+    width: 100%;
     height: 100%;
-    margin-left: 2%;
+    
 
     
 }
@@ -20,23 +20,24 @@
     .content{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        width: 95%;
+        width: 100%;
         height: 100%;
         margin-left: 2%;
     
         
     }
 }
-@media (min-width:110px) and (max-width:500px){
+@media (min-width:110px) and (max-width:480px){
     .content{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        width: 95%;
+        width: 100%;
         height: 100%;
         margin-left: 2%;
     
         
     }
+   
     .maindiv{
         padding-top: 5px;
         display: grid;
@@ -44,19 +45,20 @@
         
     }
 }
-@media (min-width:501px) and (max-width:900px){
+@media (min-width:481px) and (max-width:768px){
     .content{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        width: 95%;
+        width: 100%;
         height: 100%;
         margin-left: 2%;
     
         
     }
-   
+    
 }
 .box{
+    width: 300px;
       margin: 10px;
       align-content: center;
       border-radius: 10px;

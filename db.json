@@ -227,7 +227,8 @@
       "start": "2023-06-30",
       "class": "11th Class",
       "id": 16
-    },{
+    },
+    {
       "id": 17,
       "subject": "Maths",
       "Teacher": "Nitesh Chandrakar",
@@ -259,7 +260,8 @@
       "Fee": 9000,
       "start": "15th july",
       "class": "11th Class"
-    },{
+    },
+    {
       "id": 20,
       "subject": "Chemistry",
       "Teacher": "Nitesh Chandrakar",
@@ -291,7 +293,8 @@
       "Fee": 9000,
       "start": "15th july",
       "class": "11th Class"
-    },{
+    },
+    {
       "id": 23,
       "subject": "English",
       "Teacher": "Nitesh Chandrakar",
@@ -324,6 +327,7 @@
       "start": "15th july",
       "class": "11th Class"
     }
+   
   ],
   "teachers": [
     {

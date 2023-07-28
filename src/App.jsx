@@ -7,7 +7,7 @@ export default function App() {
   
 
   return (
-   <div >
+   <div style={{backgroundColor:"blue"}} >
    <Navbar/>
    <AllRoutes/>
    </div>

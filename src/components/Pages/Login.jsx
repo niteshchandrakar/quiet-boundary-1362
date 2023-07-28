@@ -16,6 +16,7 @@ export default function Login() {
                 <input
                 style={{marginTop:"20px",marginBottom:"10px"}}
                     type = "email"
+                    
                     data-testid = "email"
                     placeholder = "Enter Email"
                     onChange={(e)=>{setdata({...data,email:e.target.value})}}

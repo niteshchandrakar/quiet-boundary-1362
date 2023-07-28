@@ -31,11 +31,11 @@ function Teachers() {
         <div className={styles.box}>
 
 
-          <img  style={{width:"100%",height:"200px"}} src={e.image} alt="" />
-          <h1>{e.name}</h1>
-          <p>{e.description}</p>
-          <p>WatchTime: {e.watchtime} Minutes</p>
-          <p>Followers: {e.followers} <button className="button" onClick={() => { setFollow(!follow) }}>Follow</button></p>
+          <img  style={{width:"100%",height:"180px"}} src={e.image} alt="" />
+          <h1 style={{margin:"0"}}>{e.name}</h1>
+          <p style={{margin:"0"}}>{e.description}</p>
+          <p style={{margin:"0"}}>WatchTime: {e.watchtime} Minutes</p>
+          <p style={{margin:"0"}}>Followers: {e.followers} <button className="button" onClick={() => { setFollow(!follow) }}>Follow</button></p>
         
         </div>
       ))}
