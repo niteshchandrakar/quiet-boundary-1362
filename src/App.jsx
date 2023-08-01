@@ -7,7 +7,7 @@ export default function App() {
   
 
   return (
-   <div style={{backgroundColor:"blue"}} >
+   <div style={{backgroundColor:"blue",margin:"-8px"}} >
    <Navbar/>
    <AllRoutes/>
    </div>

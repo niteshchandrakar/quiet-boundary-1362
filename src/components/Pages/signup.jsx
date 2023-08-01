@@ -13,7 +13,7 @@ function Signup() {
     
     const handleformsubmit=(e)=>{
       e.preventDefault()
-      axios.post(`http://localhost:8080/userdata`, {
+      axios.post(`https://eduboard.onrender.com/userdata`, {
         ...data
         })
         .then(function (response) {
@@ -27,7 +27,7 @@ function Signup() {
     }
   
   
-    console.log(data)
+ 
     return (
       <div className="maindivv" style={{}}>
         <h1>Signup</h1>

@@ -24,7 +24,7 @@ const Ssortby=(e)=>{
   setPagenumber(1)
 }
 
-  let url=`http://localhost:8080/courses?_page=${pagenumber}&_limit=4`
+  let url=`https://eduboard.onrender.com/courses?_page=${pagenumber}&_limit=4`
   const fetchdata = async (e) => {
 setLoading(true)
     await axios.get(url)

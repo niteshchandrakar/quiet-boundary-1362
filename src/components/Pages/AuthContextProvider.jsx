@@ -1,5 +1,6 @@
 import React, { createContext, useState } from 'react'
 import axios from 'axios'
+
 export const AppContext = createContext()
 const initstate={
   isAuth: false,
@@ -43,18 +44,19 @@ const initstate={
 export default function AuthContextProvider({ children }) {
   const [data2, setdata2] = useState([])
   const [data, setdata] = useState(initstate)
- console.log(data)
+
   const HandleFormRequest = async (e) => {
+    
     e.preventDefault()
-    await axios.get('http://localhost:8080/userdata')
+    await axios.get('https://eduboard.onrender.com/userdata')
       .then(function (response) {
         // handle success
-
+      
         setdata2(response.data);
 
         data2.map((e) => {
           if (e.email == data.email && e.password == data.password) {
-           
+          
             setdata({ ...data, isAuth: true, userdata: e })
           }
         })
@@ -68,6 +70,7 @@ export default function AuthContextProvider({ children }) {
 
 
   }
+  
 
 const logout=()=>{
   setdata(initstate)

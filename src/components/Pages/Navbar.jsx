@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useContext, useState } from 'react'
 import { Stack, HStack, VStack, Button } from '@chakra-ui/react'
 import styles from "../Css/navbar.module.css"
@@ -11,7 +11,7 @@ import Search from "./Search";
 
 function Navbar() {
   const [search, setSearch] = useState("")
-
+const Navigate=useNavigate()
   const { data, logout } = useContext(AppContext)
   const [profile, setProfile] = useState(false)
   const student = data.userdata
@@ -23,7 +23,7 @@ function Navbar() {
 
       <div className={styles.main}>
         <div >
-          <img src={logo} className={styles.logo} alt="" />
+          <img src={logo} className={styles.logo} alt="" onClick={()=>{Navigate("/dashboard")}} />
         </div>
 
         <div >
@@ -53,7 +53,7 @@ function Navbar() {
           <Link className={styles.links} to="/courses">Courses</Link>
           <Link className={styles.links} to="/teachers">Teachers</Link>
           <Link className={styles.links} to="/timetable">Timetable</Link>
-          <Link className={styles.links} to="/classmates">Classmates</Link>
+         
 
 
         </div>

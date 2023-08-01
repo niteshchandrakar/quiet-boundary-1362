@@ -6,7 +6,7 @@ function Teachers() {
   const [teachers, setTeachers] = useState([])
   const fetchdata = async (e) => {
 
-    await axios.get('http://localhost:8080/teachers')
+    await axios.get('https://eduboard.onrender.com/teachers')
       .then(function (response) {
         // handle success
 
