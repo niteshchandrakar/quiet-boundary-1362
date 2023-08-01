@@ -1,16 +1,11 @@
 {
-  "name": "mock-server-app",
-  "version": "1.0.0",
- 
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js" 
+  "name": "cypress-example-rct-211-b20-e1-usereducer",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": "16.16.0"
   },
-  "keywords": [],
-  "author": "abdul",
-  "license": "ISC",
- 
-
   "dependencies": {
     "@chakra-ui/icons": "^2.0.19",
     "@chakra-ui/react": "^2.6.1",
@@ -32,7 +27,15 @@
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
- 
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "server": "json-server --watch db.json --port 8080"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -57,12 +60,14 @@
     "style-loader": "^3.3.3"
   },
   "description": "Netlify Link\r https://649018b178649d408aa5bbc4--effervescent-sfogliatella-b35a0a.netlify.app/courses",
-
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/niteshchandrakar/quiet-boundary-1362.git"
   },
-
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/niteshchandrakar/quiet-boundary-1362/issues"
   },
