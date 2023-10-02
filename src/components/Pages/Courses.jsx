@@ -99,13 +99,13 @@ console.log(totalpages)
     <div className={styles.box}>
       
       
-      <img style={{width:"100%",height:"50%"}} src={e.image} alt="" />
+      <img style={{width:"100%",height:"45%"}} src={e.image} alt="" />
       <h5 style={{margin:"0"}}>Subject : {e.subject}</h5>
       <p style={{margin:"0"}}>For : {e.class}</p>
       <p style={{margin:"0"}}>Teacher: {e.Teacher}</p>
       
       <p style={{margin:"0"}}>Descreption: {e.description}</p>
-      <p style={{margin:"2px"}}>starts on:{e.start}</p>
+      
       <p style={{margin:"2px"}}>Course Fees: Rs. {e.Fee} <button className="button" onClick={()=>{alert("Course will be added to Your Profile Shortly")}}>Buy Course</button></p>
       
     </div>

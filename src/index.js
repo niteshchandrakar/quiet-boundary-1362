@@ -4,16 +4,22 @@ import App from "./App";
 
 
 import AuthContextProvider from "./components/Pages/AuthContextProvider";
+import { ChakraProvider } from "@chakra-ui/react";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
-  <AuthContextProvider>
+  <ChakraProvider>
+
+
+<AuthContextProvider>
 
     <BrowserRouter>
       <App />
     </BrowserRouter>
   </AuthContextProvider>
+  </ChakraProvider>
+  
 
 
 );

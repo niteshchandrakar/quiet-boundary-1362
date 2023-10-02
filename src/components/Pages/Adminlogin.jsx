@@ -2,8 +2,26 @@ import React, { useContext, useState } from 'react'
 import { AppContext } from './AuthContextProvider'
 import { useNavigate } from 'react-router-dom'
 import axios from "axios";
+import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons'
+import { Link } from 'react-router-dom';
+import {
+    Button,
+    Checkbox,
+    Flex,
+    Text,
+    FormControl,
+    FormLabel,
+    Heading,
+    Input,
+    Stack,
+    Image,
+    InputGroup,
+    InputRightElement,
+    Select,
+  } from '@chakra-ui/react'
 
 export default function AdminLogin() {
+    const [showPassword, setShowPassword] = useState(false)
     const [data, setData] = useState({
         subject: "", Teacher: "", image: "",
         description: "", type: "", Fee: "", start: "", class: ""
@@ -91,30 +109,77 @@ export default function AdminLogin() {
                 </form>
             </div>
         ) : (
-            <div className='maindivv'>
-                <form onSubmit={handlesubmit}  >
-
-                    <input
-                        style={{ marginTop: "20px", marginBottom: "10px" }}
-                        type="email"
-                        data-testid="email"
-                        placeholder="Enter Email"
-                        onChange={(e) => { setdata({ ...data2, email: e.target.value }) }}
-                    />
-                    <br />
-                    <input
-                        style={{ marginBottom: "10px" }}
-                        type="password"
-
-                        placeholder="Enter password"
-                        onChange={(e) => { setdata({ ...data2, password: e.target.value }) }}
-                    />
-                    <br />
-                    <input className="button" type="submit" />
-
-                </form>
-            </div>
+            <Stack className='maindivv' minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
+      <Flex p={8} flex={1} align={'center'} justify={'center'}>
+        <Stack  spacing={4} w={'full'} maxW={'md'}>
+          <Heading fontSize={'2xl'}>Login as Admin</Heading>
+          
+          <FormControl   id="email">
+            <FormLabel>Email address</FormLabel>
+            <Input
+            bgColor={"white"}
+            type="email" 
+            placeholder = "abc@gmail.com"
+            onChange={(e) => { setdata({ ...data2, email: e.target.value }) }}
+            />
+          </FormControl>
+          {/* <FormControl id="password">
+            <FormLabel>Password</FormLabel>
+            <Input type="password" />
+          </FormControl> */}
+          <FormControl id="password" isRequired>
+              <FormLabel>Password</FormLabel>
+              <InputGroup>
+             
+                <Input
+                bgColor={"white"}
+                placeholder="12345"
+                type={showPassword ? 'text' : 'password'} 
+                onChange={(e)=>{setdata({...data2,password:e.target.value})}}
+                />
+                <InputRightElement h={'full'}>
+                  <Button
+                    variant={'ghost'}
+                    onClick={() => setShowPassword((showPassword) => !showPassword)}>
+                    {showPassword ? <ViewIcon /> : <ViewOffIcon />}
+                  </Button>
+                </InputRightElement>
+              </InputGroup>
+            </FormControl>
+          <Stack spacing={6}>
+          
+            <Button onClick={(e)=>handlesubmit(e)} colorScheme={'blue'} variant={'solid'}>
+              Sign in
+            </Button>
+          </Stack>
+          <FormLabel>Don't have an User account?</FormLabel>
+          <Button
+              rounded={'full'}
+              w={"80px"}
+              bg={'blue.400'}
+              color={'white'}
+              _hover={{
+                bg: 'blue.500',
+              }}>
+                
+                <Link style={{textDecoration:"none"}} to="/signup">Signup</Link>
+            </Button>
+        </Stack>
+      </Flex>
+      <Flex flex={1}>
+        <Image
+          alt={'Login Image'}
+          objectFit={'cover'}
+          src={
+            'https://plus.unsplash.com/premium_photo-1681487916420-8f50a06eb60e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxvZ2lufGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60'
+          }
+        />
+      </Flex>
+    </Stack>
         )
 
     )
 }
+
+
+

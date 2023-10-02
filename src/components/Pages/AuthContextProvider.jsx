@@ -46,7 +46,7 @@ export default function AuthContextProvider({ children }) {
   const [data, setdata] = useState(initstate)
 
   const HandleFormRequest = async (e) => {
-    
+   
     e.preventDefault()
     await axios.get('https://eduboard.onrender.com/userdata')
       .then(function (response) {
